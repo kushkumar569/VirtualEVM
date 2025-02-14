@@ -1,0 +1,238 @@
+/* Box style */
+.box {
+  margin-left: 25%;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  width: 50%;
+  background-color: #654d3e34;
+  color: #e6ccb2b5;
+  box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+}
+
+/* Header style */
+.head {
+  text-align: center;
+}
+
+/* Line separator */
+.line {
+  background-color: #ede0d4;
+  height: 0.08rem;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Block section */
+
+.block {
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+/* Label style */
+.label {
+  color: #e6ccb2af;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+/* Input field */
+.input {
+  border: 1px solid #d5d2d24b;
+  border-radius: 5px;
+  background-color: #18171737;
+  color: #9c6644;
+  padding: 7px 18px;
+  font-size: 1rem;
+  box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.4);
+}
+
+.input:hover {
+  background-color: #dfb183c4;
+  transform: scale(1.05);
+  box-shadow: 2px 2px 10px #f4b87d;
+}
+
+/* Avatar section */
+.avatar-section {
+  padding: 20px;
+}
+
+/* Avatar button */
+.avatar-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #b0886889;
+  color: #e6ccb2;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin: 0 10px 15px 0;
+}
+
+.avatar-button:hover {
+  background-color: #ddb892c2;
+  transform: scale(1.05);
+  box-shadow: 2px 2px 10px #f4b87d;
+}
+
+/* Selected avatar style */
+.selected-avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+  box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.4);
+}
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+/* Modal container */
+.modal-container {
+  background-color: #654d3e;
+  border-radius: 8px;
+  padding: 24px;
+  margin: auto;
+  width: 80%;
+  max-height: 80%;
+  height: 80%;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-container1 {
+    background-color: #654d3e;
+    border-radius: 8px;
+    padding: 24px;
+    margin: auto;
+    width: 80%;
+    max-height: 70vh;
+    height: 70vh;
+    overflow-y: hidden;
+    position: relative;
+  }
+
+.stky {
+    position: sticky;
+    top: 0; /* Keeps the header at the top */
+    z-index: 10; /* Ensures the header is on top */
+}
+
+/* Modal close button */
+.modal-close-button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: gray;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.modal-close-button:hover {
+  color: darkgray;
+}
+
+/* Modal title */
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Search input */
+.search-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+/* Avatar grid */
+.avatar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 8px;
+  padding: 8px;
+  overflow-y: auto;
+}
+
+/* Avatar item */
+.avatar-item {
+  text-align: center;
+}
+
+/* Avatar image */
+.avatar-image {
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  transition: border-color 0.3s;
+  height: 50px;
+  width: 50px;
+}
+
+.avatar-image:hover {
+  border-color: blue;
+}
+
+/* Avatar name */
+.avatar-name {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+/* Button style */
+.submit-btn {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #b0886889;
+  color: #e6ccb2;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.submit-btn:hover {
+  background-color: #ddb892c2;
+  transform: scale(1.05);
+  box-shadow: 2px 2px 10px #f4b87d;
+}
+
+/* Error text */
+.error-text {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.choose-avatar-container {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,156 @@
+/* body {
+    text-align: center;
+    background-color: #383838;
+} */
+.candidate {
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: #b0886889;
+    color:#E6CCB2;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+}
+
+.candidate:hover {
+    color: #9C6644;
+    box-shadow: 2px 2px 10px #f4b87d;
+    background-color: #e2b487;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.img {
+    margin-top: 100px;
+    font-size: 120px;
+    /* color: rgb(24, 253, 3); */
+    height: 150px;
+    width: 1000px;
+    /* text-shadow: 0 0 20px rgb(99, 255, 1); */
+    /* box-shadow: 0 0 10px rgb(0, 255, 4); */
+    /* mix-blend-mode: color-dodge; */
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 25px #383838;
+    -moz-box-shadow: 1px 1px 25px #383838;
+    box-shadow: 1px 1px 25px #383838;
+}
+
+.checkbox-wrapper-31:hover .check {
+    stroke-dashoffset: 0;
+}
+
+.checkbox-wrapper-31 {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.checkbox-wrapper-31 .background {
+    fill: #ccc;
+    transition: ease all 0.6s;
+    -webkit-transition: ease all 0.6s;
+}
+
+.checkbox-wrapper-31 .stroke {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 100;
+    transition: ease all 0.6s;
+    -webkit-transition: ease all 0.6s;
+}
+
+.checkbox-wrapper-31 .check {
+    fill: none;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+    stroke-dashoffset: 22;
+    stroke-dasharray: 22;
+    transition: ease all 0.6s;
+    -webkit-transition: ease all 0.6s;
+}
+
+.checkbox-wrapper-31 input[type=checkbox] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    opacity: 0;
+    -appearance: none;
+    -webkit-appearance: none;
+}
+
+.checkbox-wrapper-31 input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+.checkbox-wrapper-31 input[type=checkbox]:checked+svg .background {
+    fill: #6cbe45;
+}
+
+.checkbox-wrapper-31 input[type=checkbox]:checked+svg .stroke {
+    stroke-dashoffset: 0;
+}
+
+.checkbox-wrapper-31 input[type=checkbox]:checked+svg .check {
+    stroke-dashoffset: 0;
+}
+
+
+/* Container for the button */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f4f4f4; */
+  }
+  
+  /* Popup overlay */
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Popup content */
+  .popup-content {
+    font-size: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Cancel button styling */
+  .cancel-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #d32f2f;
+  }
+  
